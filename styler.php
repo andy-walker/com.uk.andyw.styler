@@ -7,7 +7,7 @@ function styler_civicrm_config() {
 
 	// add styles
 	CRM_Core_Resources::singleton()->addStyleFile(
-		'uk.co.circleinteractive.styler', 
+		'com.uk.andyw.styler', 
 		'default.css',
 		CRM_Core_Resources::DEFAULT_WEIGHT,
         'html-header'
@@ -15,7 +15,7 @@ function styler_civicrm_config() {
  	
  	// add javascript
 	CRM_Core_Resources::singleton()->addScriptFile(
-		'uk.co.circleinteractive.styler', 
+		'com.uk.andyw.styler', 
 		'styler.js'	
 	);
 
