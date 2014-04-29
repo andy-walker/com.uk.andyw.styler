@@ -129,7 +129,7 @@ h1#page-title {
 }
 
 /* Select box styles */
-.crm-container .select-box-wrapper {
+.crm-container .select-box-wrapper select:not([multiple]) {
     
     display:inline-block;
     overflow:hidden;
@@ -434,3 +434,107 @@ h1#page-title {
 #tagGroup .form-layout-compressed table td {
     width:250px;
 }
+
+/* NW Aditions 
+ -- sorry, this isn't well commented.. it's mostly dashboard  */
+
+#crm-container .ui-tabs-panel {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:1.3em;
+}
+
+ .crm-container .crm-tab-button a, .crm-container .ui-tabs .ui-tabs-nav li a{
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;	
+	font-size:1.1em;
+	color: #222;
+}
+
+.crm-container .ui-tabs .ui-tabs-nav {
+    background: #e9e9ee; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 3%, #eeeef2 3%, #e0e0e2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(3%,#ffffff), color-stop(3%,#eeeef2), color-stop(100%,#e0e0e3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* W3C */
+}
+
+#mainTabContainer.ui-tabs {
+	padding: 0em;
+}
+.crm-contact-tabs-list .ui-tabs-nav .ui-helper-reset .ui-helper-clearfix .ui-widget-header .ui-corner-all {
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.crm-container div.solid-border-top, .crm-container .attachment-fieldset {
+    border-top: none;
+}
+#crm-container .crm-submit-buttons:first-of-type {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+.crm-container h3 {
+    background-color: #dedede !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: none;
+}
+
+.crm-container .crm-accordion-header.active {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.crm-container label {
+	font-size: 1em;
+}
+#crm-container div.crm-summary-row, #mainTabContainer .crm-tab-button {
+	background-color: #EEEEEE;
+}
+
+#mainTabContainer li.crm-tab-button {
+    margin: 0 5px 2px 0;
+    background: #e9e9ee; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 3%, #eeeef2 3%, #e0e0e2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(3%,#ffffff), color-stop(3%,#eeeef2), color-stop(100%,#e0e0e3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 3%,#eeeef2 3%,#e0e0e3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e3',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #b4b4b4;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+    box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+    -moz-transition: -moz-box-shadow 0.25s;
+    -webkit-transition: -webkit-box-shadow 0.25s;
+    -o-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    }
+
+.crm-container .crm-accordion-header, .crm-container .collapsed .crm-accordion-header, .crm-container .crm-accordion-header:hover {
+    background-color: #E9E9EE;
+    color: #cdcdcd;
+    text-shadow: none;
+}
+.crm-container .crm-accordion-header.active:hover {
+    background-color: #bbb;
+}
+crm-container .crm-accordion-wrapper {
+    padding: 2px;
+}
+.crm-container .crm-accordion-wrapper .crm-master-accordion-header {
+	border: none;
+	margin-bottom: 10px;
+}
+.crm-container .crm-master-accordion-header.crm-accordion-header:hover, .crm-container .crm-collapsible .collapsible-title:hover {
+    color: #111;
+    border: none;
+}
+.crm-container .button .icon, .crm-container .crm-button .icon {
+    background-image: url("../../../all/modules/civicrm/i/icons/jquery-ui-52534D.png");
+}
+
