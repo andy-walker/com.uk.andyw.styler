@@ -435,9 +435,8 @@ h1#page-title {
     width:250px;
 }
 
-/* NW Aditions 
- -- sorry, this isn't well commented.. it's mostly dashboard  */
-
+/* Additions - this could do with better commenting, tho it's mostly dashboard  */
+ 
 #crm-container .ui-tabs-panel {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:1.3em;
@@ -487,9 +486,6 @@ h1#page-title {
     font-weight: bold;
 }
 
-.crm-container label {
-	font-size: 1em;
-}
 #crm-container div.crm-summary-row, #mainTabContainer .crm-tab-button {
 	background-color: #EEEEEE;
 }
@@ -517,7 +513,6 @@ h1#page-title {
 
 .crm-container .crm-accordion-header, .crm-container .collapsed .crm-accordion-header, .crm-container .crm-accordion-header:hover {
     background-color: #E9E9EE;
-    color: #cdcdcd;
     text-shadow: none;
 }
 .crm-container .crm-accordion-header.active:hover {
@@ -534,7 +529,47 @@ crm-container .crm-accordion-wrapper {
     color: #111;
     border: none;
 }
+.crm-container .crm-search-tasks, .crm-container .crm-tasks {
+	background-color: #f2f2f2;
+}
+
+/* Make icons black rather than white */
+
 .crm-container .button .icon, .crm-container .crm-button .icon {
     background-image: url("../../../all/modules/civicrm/i/icons/jquery-ui-52534D.png");
 }
 
+/* -- general form elements */
+
+.crm-container select {
+    color: #444;
+    font-size: 14px !important;
+}
+.crm-container label, .crm-container tr, .crm-container div.crm-clear {
+	font-size: 1.15em;
+}
+.crm-container div.crm-clear {
+	font-size: 0.8em;
+}
+#crm-container div.crm-summary-row div.crm-label {
+	color: #444;
+}
+.crm-container .description, .crm-container .crm-clear-link {
+	font-size: 1.1em;
+}
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* -- dashboard widgets */
+
+#crm-container .widget-controls {
+	background-color: #dedede !important;
+}
+
+/* -- dialogue popup */
+
+div.ui-dialog {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 1px solid #eee;
+}
