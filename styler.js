@@ -34,9 +34,7 @@ cj('.crm-container input[type=radio]').each(function() {
 });
 
 // add wrapper div to select boxes
-/*
 cj('.crm-container select').each(function() {
-    console.log('wrapping');
     var width = cj(this).width();
     cj(this).wrap('<div class="select-box-wrapper" style="width:' + width + 'px"></div>');
     
@@ -49,7 +47,7 @@ cj('.crm-container select').each(function() {
                 cj(this).parent().removeClass('select-box-wrapper-focused');
             });
 });
-*/
+
 
 cj('.crm-container select option:first-child').each(function() {
     var label = cj(this).html();

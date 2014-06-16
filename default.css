@@ -545,8 +545,10 @@ crm-container .crm-accordion-wrapper {
     color: #444;
     font-size: 14px !important;
 }
+.crm-container .help, .crm-container #help, #crm-container label { font-size: 14px; }
+
 .crm-container label, .crm-container tr, .crm-container div.crm-clear {
-	font-size: 1.15em;
+	font-size: 14px;
 }
 .crm-container div.crm-clear {
 	font-size: 0.8em;
@@ -555,7 +557,7 @@ crm-container .crm-accordion-wrapper {
 	color: #444;
 }
 .crm-container .description, .crm-container .crm-clear-link {
-	font-size: 1.1em;
+	font-size: 14px;
 }
 input[type="checkbox"], input[type="radio"] {
     margin-right: 5px;
