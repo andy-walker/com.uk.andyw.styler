@@ -546,7 +546,7 @@ crm-container .crm-accordion-wrapper {
     font-size: 14px !important;
 }
 .crm-container label, .crm-container tr, .crm-container div.crm-clear {
-	font-size: 1.15em;
+	/*font-size: 1.15em;*/
 }
 .crm-container div.crm-clear {
 	font-size: 0.8em;
